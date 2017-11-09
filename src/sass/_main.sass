@@ -1,0 +1,94 @@
+.container
+	width: 500px
+	margin: 20px auto
+
+.preview
+	width: 100%
+
+.tabs
+	width: 100%
+	display: flex
+	justify-content: center
+
+.tab
+	display: inline-block
+	margin-left: 20px
+	&__link
+		transition: 0.5s
+		padding: 5px
+		border: 1px solid dodgerblue
+		border-radius: 5px
+		color: dodgerblue
+		display: block
+		text-decoration: none
+		font-size: 15px
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+		&:hover, &.is-active
+			background: dodgerblue
+			color: #fff
+
+.preview__item
+	height: 100%
+	border-radius: 5px
+	padding: 20px
+
+.item
+	border-radius: 5px
+	overflow: hidden
+	box-sizing: content-box
+	border: 1px solid dodgerblue
+	font-size: 15px
+	color: black
+	width: 200px
+	&__content
+		padding: 10px
+	&__img
+		width: 200px
+		height: 200px
+		img
+			height: 200px
+			width: 200px
+			object-fit: cover
+
+#open-popup
+	padding: 20px
+.white-popup
+	position: relative
+	background: #FFF
+	padding: 40px
+	width: auto
+	max-width: 500px
+	margin: 20px auto
+	text-align: center
+
+.more-btn
+	display: block
+	width: 100%
+	text-align: center
+	text-transform: uppercase
+	color: white
+	background-color: dodgerblue
+	padding: 5px 0
+
+.single-slider
+	.item
+		border: none
+		border-radius: 0
+		width: 100%
+		display: flex
+		&__content
+			width: 50%
+			text-align: start
+		&__img
+			width: 50%
+
+.counter
+	display: inline-block
+	position: absolute
+	right: 5px
+	bottom: 5px
+	background: dodgerblue
+	color: white
+	font-size: 15px
+	padding: 0 5px
+	border-radius: 3px
